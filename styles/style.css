@@ -17,6 +17,7 @@
 
 .dark-2 {
     color: rgb(71, 71, 71);
+    font-size: 18px;
 }
 
 .dark-3 {
@@ -32,7 +33,21 @@
     background-color: rgb(253, 110, 10);
     padding: 18px 35px;
     border: none;
+}
 
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.secondary-bg {
+    background-color: rgb(255, 248, 243);
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* =============nav styles=========== */
@@ -40,8 +55,9 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    padding-top: 50px;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 nav h3 {
@@ -57,7 +73,6 @@ nav span {
 nav ul {
     display: flex;
     align-items: center;
-
 }
 
 nav ul li {
@@ -78,7 +93,7 @@ nav ul li button {
 .header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: center left, bottom right;
 }
 
 .banner {
@@ -109,4 +124,35 @@ nav ul li button {
 
 .banner-desc {
     margin-bottom: 30px;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 30px;
+}
+
+/* ~~~~~~~~~~~~Main Section~~~~~~~~~~~ */
+
+.about-me-container {
+    border-radius: 10px;
+    margin: 130px auto;
+    padding: 130px 155px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.about-me-info {
+    display: flex;
+    justify-content: space-around;
 }
